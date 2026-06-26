@@ -1,8 +1,10 @@
-# NULL
+# QUENCH
 
 Monochromatic dark theme for Visual Studio Code.
 
 Black, white, and gray only. No color anywhere — not even for errors or warnings. Syntax hierarchy is expressed through **weight** and **brightness**, not hue.
+
+Quenching is the process of rapidly cooling hot metal to lock it into its final, hardened form. That is what you do when you review code.
 
 ## Design
 
@@ -34,5 +36,5 @@ Built for long sessions in dark environments. Designed to disappear and let the 
 Install from the VS Code Marketplace or:
 
 ```
-ext install wlcvs.null
+ext install wlcvs.quench
 ```

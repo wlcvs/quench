@@ -1,23 +1,23 @@
 {
-  "name": "null",
-  "displayName": "NULL",
-  "description": "Monochromatic dark theme. Black, white, and gray only. Designed for clarity without color — syntax hierarchy through weight and brightness, not hue.",
+  "name": "quench",
+  "displayName": "QUENCH",
+  "description": "Monochromatic dark theme. Black, white, and gray only. Syntax hierarchy through weight and brightness, not hue. For reviewing and hardening code.",
   "version": "1.0.0",
   "publisher": "wlcvs",
   "license": "MIT",
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Themes"],
-  "keywords": ["dark", "monochrome", "monochromatic", "minimal", "gray", "grey", "noir"],
+  "keywords": ["dark", "monochrome", "monochromatic", "minimal", "gray", "grey", "noir", "industrial"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wlcvs/null-vscode-theme"
+    "url": "https://github.com/wlcvs/quench"
   },
   "contributes": {
     "themes": [
       {
-        "label": "NULL",
+        "label": "QUENCH",
         "uiTheme": "vs-dark",
-        "path": "./themes/null.json"
+        "path": "./themes/quench.json"
       }
     ]
   }
