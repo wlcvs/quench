@@ -1,0 +1,24 @@
+{
+  "name": "null",
+  "displayName": "NULL",
+  "description": "Monochromatic dark theme. Black, white, and gray only. Designed for clarity without color — syntax hierarchy through weight and brightness, not hue.",
+  "version": "1.0.0",
+  "publisher": "wlcvs",
+  "license": "MIT",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Themes"],
+  "keywords": ["dark", "monochrome", "monochromatic", "minimal", "gray", "grey", "noir"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wlcvs/null-vscode-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "NULL",
+        "uiTheme": "vs-dark",
+        "path": "./themes/null.json"
+      }
+    ]
+  }
+}
