@@ -16,25 +16,37 @@ Quenching is the process of rapidly cooling hot metal to lock it into its final,
 
 Built for long sessions in dark environments. Designed to disappear and let the structure speak.
 
+Covers the full workbench: editor, sidebar, activity bar, status bar, tabs, terminal, panels, widgets, diffs, debugger, and Git decorations.
+
 ## Palette
 
-| Token | Hex | Role |
-|---|---|---|
-| bg | `#0a0a0a` | Editor background |
-| surface | `#111111` | Widgets, panels |
-| surface2 | `#18181b` | Hover, selection |
-| border | `#27272a` | Borders |
-| subtle | `#3f3f46` | Comments, inactive chrome |
-| faint | `#52525b` | Operators, punctuation |
-| dim | `#71717a` | Tags, decorators |
-| muted | `#a1a1aa` | Keywords, strings |
-| text | `#e4e4e7` | Variables, identifiers |
-| bright | `#d4d4d8` | Types, constants |
+| Role | Hex |
+|---|---|
+| Background | `#0a0a0a` |
+| Surface | `#111111` |
+| Hover / Selection | `#18181b` |
+| Borders | `#27272a` |
+| Comments / Inactive | `#3f3f46` |
+| Operators / Punctuation | `#52525b` |
+| Tags / Decorators | `#71717a` |
+| Keywords / Strings | `#a1a1aa` |
+| Variables / Identifiers | `#e4e4e7` |
+| Types / Constants | `#d4d4d8` |
 
 ## Installation
 
-Install from the VS Code Marketplace or:
-
 ```
 ext install wlcvs.quench
+```
+
+Or clone and install locally:
+
+```bash
+git clone https://github.com/wlcvs/quench ~/.vscode/extensions/wlcvs.quench-1.0.0
+```
+
+Then set in `settings.json`:
+
+```json
+"workbench.colorTheme": "QUENCH"
 ```
