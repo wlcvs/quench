@@ -19,6 +19,13 @@
         "uiTheme": "vs-dark",
         "path": "./themes/quench.json"
       }
+    ],
+    "productIconThemes": [
+      {
+        "id": "quench-icons",
+        "label": "QUENCH Icons",
+        "path": "./product-icons/quench-icons.json"
+      }
     ]
   }
 }
